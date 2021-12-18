@@ -217,99 +217,23 @@ select {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* お問い合わせ詳細 */
 
-/* 事業内容詳細 */
-.blank {
-  height: 70px;
-}
-
-.bar {
-  border-bottom: 1px solid;
-  width: 80%;
+.company {
   margin: 0 auto;
-  margin-bottom: 15px;
 }
 
-.servicecontent1 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent1__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent1__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent1__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent1__txt-2 {
+/* 申し込みボタン */
+.inquiry__btn2 {
+  width: 300px;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
   font-size: 15px;
-  margin-top: 10px;
-}
-
-.servicecontent2 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent2__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent2__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent2__txt-1 {
-  font-size: 25px;
   font-weight: bold;
-}
-.servicecontent2__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent3 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent3__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent3__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent3__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent3__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent4 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent4__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent4__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent4__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent4__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
+  color: white;
+  margin-top: 50px;
 }
 
 /* お問い合わせ */
@@ -331,6 +255,7 @@ select {
   text-align: center;
   margin-top: 50px;
 }
+
 .inquiry__btn {
   width: 300px;
   line-height: 50px;
@@ -342,6 +267,7 @@ select {
   color: white;
   margin-top: 50px;
 }
+
 .inquiry__footer {
   height: 60px;
   background: black;

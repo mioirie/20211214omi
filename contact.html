@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>作成中 事業内容</title>
+  <title>作成中 お問い合わせ</title>
 <!-- 以下の内容を追加します -->
   <link rel="stylesheet" href="css\reset.css" />
-  <link rel="stylesheet" href="css\service.css" />
+  <link rel="stylesheet" href="css\contact.css" />
 </head>
 
 <body>
@@ -35,49 +35,35 @@
 
   <div class="service">
     <div class="service__img"></div>
-    <div class="service__ttl">事業内容</div>
+    <div class="service__ttl">お問い合わせ</div>
   </div>
 
-<!-- 事業内容詳細 -->
-<div class="blank"></div>
+<!-- お問い合わせ詳細 -->
+  <div class="blank"></div>
 
-<div class="bar"></div>
+  <form action="" method="post">
+    <div class="company">
+      <label for="company">会社名</label>
+      <input type="text" id="company" name="company">
+    </div>
 
-<div class="servicecontent1">
-  <img class="servicecontent1__img" src="img/service1.png" alt="">
-  <div class="servicecontent1__txt">
-    <div class="servicecontent1__txt-1">IT人材育成事業</div>
-  <div class="servicecontent1__txt-2">これまでに培った教育手法を生かして、短期間で即戦力のIT人材を育成します。</div>
-</div>
-</div>
-<div class="bar"></div>
+    <div class="name">
+      <label for="name">お名前<p>*</p></label>
+      <input type="text" id="name" name="name">
+    </div>
+    
+    <div class="address">
+      <label for="address">メールアドレス<p>*</p></label>
+      <input type="mail" id="address" name="address">
+    </div>
+    
+    <div class="inquiry">
+      <label for="inquiry__txt">お問い合わせ内容<p>*</p></label>
+      <textarea name="inquiry" id="inquiry" cols="30" rows="10"></textarea>
+    </div>
+  </form>
 
-<div class="servicecontent2">
-  <img class="servicecontent2__img" src="img/service2.png" alt="">
-  <div class="servicecontent2__txt">
-    <div class="servicecontent2__txt-1">コーチング事業</div>
-    <div class="servicecontent2__txt-2">目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</div>
-  </div>
-</div>
-<div class="bar"></div>
-
-<div class="servicecontent3">
-  <img class="servicecontent3__img" src="img/service3.png" alt="">
-  <div class="servicecontent3__txt">
-    <div class="servicecontent3__txt-1">ITコンサル事業</div>
-    <div class="servicecontent3__txt-2">経営戦略にIT戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</div>
-  </div>
-</div>
-<div class="bar"></div>
-
-<div class="servicecontent4">
-  <img class="servicecontent4__img" src="img/service4.png" alt="">
-  <div class="servicecontent4__txt">
-    <div class="servicecontent4__txt-1">デジタルトランスフォーメーション事業</div>
-    <div class="servicecontent1__txt-2">人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</div>
-  </div>
-</div>
-<div class="bar"></div>
+  <div class="inquiry__btn2">お申し込み</div>
 
 <!-- お問い合わせ -->
   <div class="blank5"></div>

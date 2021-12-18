@@ -218,98 +218,52 @@ select {
   transform: translate(-50%, -50%);
 }
 
-/* 事業内容詳細 */
-.blank {
-  height: 70px;
+/* ニュース詳細 */
+.news {
+  height: 400px;
+  padding: 50px;
 }
 
-.bar {
-  border-bottom: 1px solid;
+.news__contents-element--1 {
+  width: 1200px;
+  line-height: 80px;
+  margin: 20px auto;
+  padding-left: 20px;
+  font-size: 20px;
+  border: 1px solid #000;
+  margin: 1em auto;
+  padding: 0.3em;
   width: 80%;
+  background-color: #fff;
+}
+.news__contents-element--2 {
+  width: 1200px;
+  line-height: 80px;
+  background-color: white;
+  padding-left: 20px;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #000;
+  margin: 1em auto;
+  padding: 0.3em;
+  width: 80%;
+  background-color: #fff;
 }
-
-.servicecontent1 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent1__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent1__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent1__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent1__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-
-.servicecontent2 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent2__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent2__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent2__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent2__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent3 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent3__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent3__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent3__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent3__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent4 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent4__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent4__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent4__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent4__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
+.news__contents-element--3 {
+  width: 1200px;
+  line-height: 80px;
+  background-color: white;
+  padding-left: 20px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #000;
+  margin: 1em auto;
+  padding: 0.3em;
+  width: 80%;
+  background-color: #fff;
 }
 
 /* お問い合わせ */

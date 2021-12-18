@@ -217,99 +217,82 @@ select {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* 事業内容詳細 */
+/* 採用情報詳細 */
 .blank {
   height: 70px;
 }
-
+.newgrad {
+  width: 1000px;
+  margin: 0 auto;
+}
+.newgrad__ttl {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 .bar {
   border-bottom: 1px solid;
-  width: 80%;
+  width: 1000px;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
-
-.servicecontent1 {
-  display: flex;
-  justify-content: space-between;
+.newgrad__table,
+tr,
+td,
+th {
+  width: 1000px;
+  height: 50px;
+  border: 1px black solid;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 30px;
 }
-.servicecontent1__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
+th {
+  width: 330px;
+  background: rgb(243, 241, 241);
+  font-weight: bold;
+  vertical-align: middle;
 }
-.servicecontent1__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
+td {
+  vertical-align: middle;
+  padding-left: 15px;
 }
-.servicecontent1__txt-1 {
+.carrer {
+  width: 1000px;
+  margin: 0 auto;
+}
+.carrer__ttl {
   font-size: 25px;
   font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 10px;
 }
-.servicecontent1__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
+.bar {
+  border-bottom: 1px solid;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
-
-.servicecontent2 {
-  display: flex;
-  justify-content: space-between;
+.carrer__table,
+tr,
+td,
+th {
+  width: 1000px;
+  height: 50px;
+  border: 1px black solid;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 30px;
 }
-.servicecontent2__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent2__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent2__txt-1 {
-  font-size: 25px;
+th {
+  width: 330px;
+  background: rgb(243, 241, 241);
   font-weight: bold;
+  vertical-align: middle;
 }
-.servicecontent2__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent3 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent3__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent3__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent3__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent3__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent4 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent4__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent4__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent4__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent4__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
+td {
+  vertical-align: middle;
+  padding-left: 15px;
 }
 
 /* お問い合わせ */

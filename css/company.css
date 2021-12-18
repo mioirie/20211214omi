@@ -218,99 +218,103 @@ select {
   transform: translate(-50%, -50%);
 }
 
-/* 事業内容詳細 */
+/* 会社概要詳細 */
 .blank {
   height: 70px;
 }
-
 .bar {
   border-bottom: 1px solid;
-  width: 80%;
+  width: 1000px;
   margin: 0 auto;
   margin-bottom: 15px;
 }
 
-.servicecontent1 {
+.company{
+  height: 400px;
+  font-size: 20px;
+  margin:20px auto;
+}
+.companytable__1{
+  width: 800px;
+  margin: 30px auto;
   display: flex;
-  justify-content: space-between;
 }
-.servicecontent1__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent1__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent1__txt-1 {
-  font-size: 25px;
+.companytable__1-1{
   font-weight: bold;
+  width: 100px;
+  text-align:center
 }
-.servicecontent1__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
+.companytable__1-2{
+  margin-left:120px;
+}
+.companytable__2{
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+}
+.companytable__2-1{
+  font-weight: bold;
+  width: 100px;
+  text-align:center
+}
+.companytable__2-2{
+  margin-left:120px;
+}
+.companytable__3{
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+}
+.companytable__3-1{
+  font-weight: bold;
+  width: 100px;
+  text-align:center
+}
+.companytable__3-2{
+  margin-left:120px;
+}
+.companytable__4{
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+}
+.companytable__4-1{
+  font-weight: bold;
+  width: 100px;
+  text-align:center
+}
+.companytable__4-2{
+  margin-left:120px;
+}
+.companytable__5{
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+}
+.companytable__5-1{
+  font-weight: bold;
+  width: 100px;
+  text-align:center
+}
+.companytable__5-2{
+  margin-left:120px;
+}
+.companytable__6{
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+}
+.companytable__6-1{
+  font-weight: bold;
+  width: 100px;
+  text-align:center
+}
+.companytable__6-2{
+  margin-left:120px;
 }
 
-.servicecontent2 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent2__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent2__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent2__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent2__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent3 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent3__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent3__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent3__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent3__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
-.servicecontent4 {
-  display: flex;
-  justify-content: space-between;
-}
-.servicecontent4__img {
-  width: 25%;
-  margin: 15px 25px 15px 150px;
-}
-.servicecontent4__txt {
-  width: 40%;
-  margin: 15px 150px 15px 25px;
-}
-.servicecontent4__txt-1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.servicecontent4__txt-2 {
-  font-size: 15px;
-  margin-top: 10px;
-}
+
+
 
 /* お問い合わせ */
 .blank5 {

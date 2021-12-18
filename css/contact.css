@@ -220,35 +220,55 @@ select {
 /* お問い合わせ詳細 */
 
 .company1 {
-  margin-top: 80px;
-  margin: 0 auto;
-  display: block;
+  margin-top: 40px;
+  text-align: center;
 }
 .company1__ttl {
   display: block;
-}
-.text {
-  display: block;
-}
-
-.imput {
-  width: 500px;
+  margin-right:775px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .name1 {
   margin-top: 30px;
-  margin: 0 auto;
+  text-align: center;
+  
 }
 .name1__ttl {
   display: block;
+  margin-right:770px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .address1 {
   margin-top: 30px;
-  margin: 0 auto;
+  text-align: center;
 }
 .address1__ttl {
   display: block;
+  margin-right:700px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inquirytext{
+  margin-top: 30px;
+  text-align: center;
+  
+}
+.inquirytext__ttl{
+  display: block;
+  margin-right: 700px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inquirytext__box{
+  resize: none;
+  width:836.8px;
+  height:80px;
 }
 
 p {
@@ -267,39 +287,10 @@ p {
   font-weight: bold;
   color: white;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-/* お問い合わせ */
-.blank5 {
-  height: 70px;
-}
-.inquiryparent {
-  background: #f1f0f0;
-  height: 450px;
-}
-.inquiry {
-  font-size: 35px;
-  text-align: center;
-  padding-top: 80px;
-  margin-bottom: 15px;
-}
-.inquiry__txt {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 50px;
-}
 
-.inquiry__btn {
-  width: 300px;
-  line-height: 50px;
-  text-align: center;
-  background-color: red;
-  margin: 0 auto;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  margin-top: 50px;
-}
 
 .inquiry__footer {
   height: 60px;
@@ -327,3 +318,4 @@ p {
   font-size: 15px;
   margin: 0 10px;
 }
+    

@@ -219,8 +219,41 @@ select {
 }
 /* お問い合わせ詳細 */
 
-.company {
+.company1 {
+  margin-top: 80px;
   margin: 0 auto;
+  display: block;
+}
+.company1__ttl {
+  display: block;
+}
+.text {
+  display: block;
+}
+
+.imput {
+  width: 500px;
+}
+
+.name1 {
+  margin-top: 30px;
+  margin: 0 auto;
+}
+.name1__ttl {
+  display: block;
+}
+
+.address1 {
+  margin-top: 30px;
+  margin: 0 auto;
+}
+.address1__ttl {
+  display: block;
+}
+
+p {
+  display: inline;
+  color: red;
 }
 
 /* 申し込みボタン */

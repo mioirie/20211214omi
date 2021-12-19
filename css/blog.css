@@ -207,15 +207,17 @@ select {
 
 .service {
   background-image: url(../img/mv.png);
+  width: 80%;
+  height: auto;
   height: 300px;
   display: block;
   background-size: cover;
+    margin: 0 auto;
   position: relative;
 }
 
 .service__img {
-  width: 80%;
-  height: auto;
+  margin: 0 auto;
 }
 
 .service__ttl {

@@ -279,14 +279,14 @@ p {
 .inquiry__btn2 {
   width: 300px;
   line-height: 50px;
-  text-align: center;
   background-color: black;
-  margin: 0 auto;
   font-size: 15px;
   font-weight: bold;
   color: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
+}
+.inquiry__btnclass {
+  text-align: center;
 }
 
 .inquiry__footer {

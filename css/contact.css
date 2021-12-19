@@ -186,6 +186,7 @@ select {
 .header__ttl {
   font-size: 25px;
   font-weight: bold;
+  text-decoration: none;
 }
 .header__navi-list {
   display: flex;
@@ -197,6 +198,9 @@ select {
   font-size: 17px;
   font-weight: bold;
   margin-right: 50px;
+}
+.header-nav-item-link {
+  text-decoration: none;
 }
 
 /* ここから下がTOPと異なる */
@@ -219,56 +223,51 @@ select {
 }
 /* お問い合わせ詳細 */
 
+.inquiryform {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .company1 {
   margin-top: 40px;
-  text-align: center;
 }
 .company1__ttl {
   display: block;
-  margin-right:775px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .name1 {
   margin-top: 30px;
-  text-align: center;
-  
 }
 .name1__ttl {
   display: block;
-  margin-right:770px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .address1 {
   margin-top: 30px;
-  text-align: center;
 }
 .address1__ttl {
   display: block;
-  margin-right:700px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.inquirytext{
+.inquirytext {
   margin-top: 30px;
-  text-align: center;
-  
 }
-.inquirytext__ttl{
+.inquirytext__ttl {
   display: block;
-  margin-right: 700px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.inquirytext__box{
+.inquirytext__box {
   resize: none;
-  width:836.8px;
-  height:80px;
+  width: 836.8px;
+  height: 80px;
 }
 
 p {
@@ -289,8 +288,6 @@ p {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
-
 
 .inquiry__footer {
   height: 60px;
@@ -317,5 +314,5 @@ p {
 .footer-nav-item-link {
   font-size: 15px;
   margin: 0 10px;
+  text-decoration: none;
 }
-    

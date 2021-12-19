@@ -186,6 +186,7 @@ select {
 .header__ttl {
   font-size: 25px;
   font-weight: bold;
+  text-decoration: none;
 }
 .header__navi-list {
   display: flex;
@@ -197,6 +198,9 @@ select {
   font-size: 17px;
   font-weight: bold;
   margin-right: 50px;
+}
+.header-nav-item-link {
+  text-decoration: none;
 }
 
 /* ここから下がTOPと異なる */
@@ -325,6 +329,9 @@ td {
   color: white;
   margin-top: 50px;
 }
+.inquiry__btn-link {
+  text-decoration: none;
+}
 .inquiry__footer {
   height: 60px;
   background: black;
@@ -350,4 +357,5 @@ td {
 .footer-nav-item-link {
   font-size: 15px;
   margin: 0 10px;
+  text-decoration: none;
 }

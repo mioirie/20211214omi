@@ -186,6 +186,7 @@ select {
 .header__ttl {
   font-size: 25px;
   font-weight: bold;
+  text-decoration: none;
 }
 .header__navi-list {
   display: flex;
@@ -197,6 +198,10 @@ select {
   font-size: 17px;
   font-weight: bold;
   margin-right: 50px;
+}
+
+.header-nav-item-link {
+  text-decoration: none;
 }
 
 /* ここから下がTOPと異なる */
@@ -344,6 +349,7 @@ select {
   font-size: 15px;
   font-weight: bold;
   color: white;
+  text-decoration: none;
 }
 /* ニュース */
 .blank2 {
@@ -389,6 +395,10 @@ select {
   font-size: 20px;
   color: black;
 }
+.news__contents-link {
+  text-decoration: none;
+}
+
 .news__contents-element--2 {
   width: 1200px;
   line-height: 80px;
@@ -490,6 +500,9 @@ select {
   font-weight: bold;
   margin-top: 15px;
 }
+.blogcontent__link {
+  text-decoration: none;
+}
 .blog2 {
   width: 300px;
   line-height: 50px;
@@ -499,6 +512,9 @@ select {
   font-size: 15px;
   font-weight: bold;
   color: white;
+}
+.blog2__link {
+  text-decoration: none;
 }
 /* 会社概要 */
 .blank4 {
@@ -533,22 +549,22 @@ select {
 .blank5 {
   height: 70px;
 }
-.inquiryparent{
+.inquiryparent {
   background: #f1f0f0;
   height: 450px;
 }
-.inquiry{
+.inquiry {
   font-size: 35px;
   text-align: center;
   padding-top: 80px;
   margin-bottom: 15px;
 }
-.inquiry__txt{
+.inquiry__txt {
   font-size: 20px;
   text-align: center;
   margin-top: 50px;
 }
-.inquiry__btn{
+.inquiry__btn {
   width: 300px;
   line-height: 50px;
   text-align: center;
@@ -559,30 +575,33 @@ select {
   color: white;
   margin-top: 50px;
 }
-.inquiry__footer{
+.inquiry__btn-link {
+  text-decoration: none;
+}
+.inquiry__footer {
   height: 60px;
   background: black;
 }
-.footer__navi-list{
+.footer__navi-list {
   display: flex;
-  color:white;
+  color: white;
   padding-top: 20px;
   list-style-type: none;
   justify-content: center;
 }
-.inquiry__footer--copyright{
+.inquiry__footer--copyright {
   color: white;
   margin-right: 200px;
 }
-.inquiry__footer--navi{
+.inquiry__footer--navi {
   display: flex;
   color: white;
-  
 }
-.footer__navi-item{
+.footer__navi-item {
   color: white;
 }
-.footer-nav-item-link{
+.footer-nav-item-link {
   font-size: 15px;
-  margin:0 10px;
+  margin: 0 10px;
+  text-decoration: none;
 }

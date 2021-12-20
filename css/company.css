@@ -206,11 +206,15 @@ select {
 
 .service {
   background-image: url(../img/mv.png);
+  width: 80%;
   height: 300px;
   display: block;
   background-size: cover;
+  margin: 0 auto;
   position: relative;
+  background-position:center
 }
+
 .service__ttl {
   position: absolute;
   font-size: 40px;

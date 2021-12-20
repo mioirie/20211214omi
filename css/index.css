@@ -202,6 +202,13 @@ select {
   text-decoration: none;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
 /* ここから下がTOPと異なる */
 
 .firstview {
@@ -522,28 +529,28 @@ select {
 .aboutcompany {
   height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .aboutcompany__info {
-  width: 50%;
-  height: 300px;
   line-height: 300px;
+  width: 520px;
   font-size: 35px;
   color: white;
   background: red;
   display: inline-block;
   text-align: center;
 }
+
 .aboutcompany__recruit {
-  width: 50%;
-  height: 300px;
   line-height: 300px;
+  width: 520px;
   font-size: 35px;
   color: white;
   background: black;
   display: inline-block;
   text-align: center;
 }
+
 /* お問い合わせ */
 .blank5 {
   height: 70px;

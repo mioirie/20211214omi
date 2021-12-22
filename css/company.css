@@ -175,30 +175,36 @@ select {
 /* START */
 /* TOP */
 
-.parent {
-  width: 1500px;
-}
 .header {
-  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-bottom: 20px;
+  position: fixed;
+
 }
 .header__ttl {
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
 }
+.header__navi {
+  display: flex;
+  justify-content: flex-end;
+}
 .header__navi-list {
   display: flex;
-  margin-left: 600px;
-  margin-bottom: 25px;
+  justify-content: flex-end;
+  align-items: center;
 }
+
 .header__navi-item {
   list-style: none;
   font-size: 17px;
   font-weight: bold;
-  margin-right: 50px;
+  margin-left: 50px;
 }
+
 .header-nav-item-link {
   text-decoration: none;
 }

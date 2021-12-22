@@ -175,14 +175,28 @@ select {
 /* START */
 /* TOP */
 
+
 .header {
+  position: fixed;  
+  display: flex;
+  justify-content: space-between; 
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: white;
+
+  z-index: 20;
+}
+/* レスポンシブデザイン */
+@media screen and (max-width:768px) {
+  .header {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 20px;
   position: fixed;
-
+  }
 }
+
 .header__ttl {
   font-size: 25px;
   font-weight: bold;
@@ -202,14 +216,13 @@ select {
   list-style: none;
   font-size: 17px;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 50px; 
+
 }
 
 .header-nav-item-link {
   text-decoration: none;
 }
-
-/* ここから下がTOPと異なる */
 
 .firstview {
   background-image: url(../img/mv.png);
@@ -217,7 +230,20 @@ select {
   display: block;
   background-size: cover;
   position: relative;
+  background-position: center;
+  z-index: 10;  
+}
+
+@media screen and (max-width:768px)  {
+  .firstview {
+  background-image: url(../img/mv.png);
+  height: 80vh;
+  display: block;
+  background-size: cover;
+  position: relative;
   background-position: center;  
+}
+  
 }
 .firstview__ttl-ja {
   position: absolute;
@@ -235,6 +261,7 @@ select {
   color: white;
   top: 60%;
   left: 50%;
+  padding-top: 30px;
   transform: translate(-50%, -50%);
 }
 .firstmessage {
@@ -274,6 +301,18 @@ select {
   grid-template-columns: 1fr 1fr;
   padding: 5px 0px 5px 70px;
 }
+
+@media screen and (max-width:768px){
+  .service__contents-parent {
+  width: 49vw;
+  display: grid;
+  grid-template-rows: 500px 500px;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px 0px 5px 70px;
+
+}
+}
+
 .service__contents-1 {
   grid-column: 1/2;
   grid-row: 1/2;

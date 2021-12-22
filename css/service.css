@@ -176,11 +176,14 @@ select {
 /* TOP */
 
 .header {
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  position: fixed;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: white;
+  z-index: 20;
 }
 .header__ttl {
   font-size: 25px;
@@ -212,7 +215,7 @@ select {
 
 .service {
   background-image: url(../img/mv.png);
-  width: 80%;
+  width: 100%;
   height: 300px;
   display: block;
   background-size: cover;

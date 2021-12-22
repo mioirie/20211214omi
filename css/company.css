@@ -176,12 +176,14 @@ select {
 /* TOP */
 
 .header {
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  position: fixed;
-
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: white;
+  z-index: 20;
 }
 .header__ttl {
   font-size: 25px;
@@ -212,13 +214,13 @@ select {
 
 .service {
   background-image: url(../img/mv.png);
-  width: 80%;
   height: 300px;
+  width: 100%;
   display: block;
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  background-position:center
+  background-position: center;
 }
 
 .service__ttl {
@@ -242,92 +244,89 @@ select {
   margin-bottom: 15px;
 }
 
-.company{
+.company {
   height: 400px;
   font-size: 20px;
-  margin:20px auto;
+  margin: 20px auto;
 }
-.companytable__1{
+.companytable__1 {
   width: 800px;
   margin: 30px auto;
   display: flex;
 }
-.companytable__1-1{
+.companytable__1-1 {
   font-weight: bold;
   width: 100px;
-  text-align:center
+  text-align: center;
 }
-.companytable__1-2{
-  margin-left:120px;
+.companytable__1-2 {
+  margin-left: 120px;
 }
-.companytable__2{
+.companytable__2 {
   width: 800px;
   margin: 30px auto;
   display: flex;
 }
-.companytable__2-1{
+.companytable__2-1 {
   font-weight: bold;
   width: 100px;
-  text-align:center
+  text-align: center;
 }
-.companytable__2-2{
-  margin-left:120px;
+.companytable__2-2 {
+  margin-left: 120px;
 }
-.companytable__3{
+.companytable__3 {
   width: 800px;
   margin: 30px auto;
   display: flex;
 }
-.companytable__3-1{
+.companytable__3-1 {
   font-weight: bold;
   width: 100px;
-  text-align:center
+  text-align: center;
 }
-.companytable__3-2{
-  margin-left:120px;
+.companytable__3-2 {
+  margin-left: 120px;
 }
-.companytable__4{
+.companytable__4 {
   width: 800px;
   margin: 30px auto;
   display: flex;
 }
-.companytable__4-1{
+.companytable__4-1 {
   font-weight: bold;
   width: 100px;
-  text-align:center
+  text-align: center;
 }
-.companytable__4-2{
-  margin-left:120px;
+.companytable__4-2 {
+  margin-left: 120px;
 }
-.companytable__5{
+.companytable__5 {
   width: 800px;
   margin: 30px auto;
   display: flex;
 }
-.companytable__5-1{
+.companytable__5-1 {
   font-weight: bold;
   width: 100px;
-  text-align:center
+  text-align: center;
 }
-.companytable__5-2{
-  margin-left:120px;
+.companytable__5-2 {
+  margin-left: 120px;
 }
-.companytable__6{
+.companytable__6 {
   width: 800px;
   margin: 30px auto;
   display: flex;
 }
-.companytable__6-1{
+.companytable__6-1 {
   font-weight: bold;
   width: 100px;
-  text-align:center
+  text-align: center;
 }
-.companytable__6-2{
-  margin-left:120px;
+.companytable__6-2 {
+  margin-left: 120px;
 }
-
-
-
 
 /* お問い合わせ */
 .blank5 {

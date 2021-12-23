@@ -177,9 +177,9 @@ select {
 
 .header {
   width: 100vw;
-  position: fixed;  
+  position: fixed;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: white;
@@ -189,6 +189,7 @@ select {
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
+  color: black;
 }
 .header__navi {
   display: flex;
@@ -209,6 +210,7 @@ select {
 
 .header-nav-item-link {
   text-decoration: none;
+  color: #000;
 }
 
 /* ここから下がTOPと異なる */
@@ -216,12 +218,12 @@ select {
 .service {
   background-image: url(../img/mv.png);
   width: 100%;
-  height: 300px;
+  height: 80vh;
   display: block;
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  background-position:center
+  background-position: center;
 }
 .service__ttl {
   position: absolute;
@@ -235,7 +237,6 @@ select {
 
 /* ニュース詳細 */
 .news {
-  height: 400px;
   padding: 50px;
 }
 .news__contents-link {
@@ -243,10 +244,11 @@ select {
 }
 .news__contents-element--1 {
   width: 1200px;
-  line-height: 80px;
+  line-height: 10vh;
   margin: 20px auto;
   padding-left: 20px;
   font-size: 20px;
+  color: black;
   border: 1px solid #000;
   margin: 1em auto;
   padding: 0.3em;
@@ -255,7 +257,7 @@ select {
 }
 .news__contents-element--2 {
   width: 1200px;
-  line-height: 80px;
+  line-height: 10vh;
   background-color: white;
   padding-left: 20px;
   margin: 0 auto;
@@ -270,7 +272,7 @@ select {
 }
 .news__contents-element--3 {
   width: 1200px;
-  line-height: 80px;
+  line-height: 10vh;
   background-color: white;
   padding-left: 20px;
   margin: 0 auto;
@@ -284,12 +286,9 @@ select {
 }
 
 /* お問い合わせ */
-.blank5 {
-  height: 70px;
-}
 .inquiryparent {
   background: #f1f0f0;
-  height: 450px;
+  height: 80vh;
 }
 .inquiry {
   font-size: 35px;
@@ -304,7 +303,7 @@ select {
 }
 .inquiry__btn {
   width: 300px;
-  line-height: 50px;
+  line-height: 10vh;
   text-align: center;
   background-color: red;
   margin: 0 auto;
@@ -317,7 +316,7 @@ select {
   text-decoration: none;
 }
 .inquiry__footer {
-  height: 60px;
+  height: 10vh;
   background: black;
 }
 .footer__navi-list {
@@ -342,4 +341,5 @@ select {
   font-size: 15px;
   margin: 0 10px;
   text-decoration: none;
+  color: white;
 }

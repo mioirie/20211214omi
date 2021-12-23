@@ -201,6 +201,7 @@ select {
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
+  color: #000;
 }
 .header__navi {
   display: flex;
@@ -221,14 +222,15 @@ select {
 
 .header-nav-item-link {
   text-decoration: none;
+  color: #000;
 }
 
 /* ここから下がTOPと異なる */
 
 .service {
   background-image: url(../img/mv.png);
-  height: 300px;
   width: 100%;
+  height: 80vh;
   display: block;
   background-size: cover;
   margin: 0 auto;
@@ -270,7 +272,7 @@ select {
 
 .blogcontent__1 {
   width: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
   background: white;
   position: relative;
 }
@@ -296,10 +298,11 @@ select {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 20px;
+  color: black;
 }
 .blogcontent__2 {
   width: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
   background: white;
   position: relative;
 }
@@ -325,10 +328,11 @@ select {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 20px;
+  color: black;
 }
 .blogcontent__3 {
   width: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
   background: white;
   position: relative;
 }
@@ -354,11 +358,12 @@ select {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .blogcontent__4 {
   width: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
   background: white;
   position: relative;
 }
@@ -384,11 +389,12 @@ select {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .blogcontent__5 {
   width: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
   background: white;
   position: relative;
 }
@@ -414,11 +420,12 @@ select {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .blogcontent__6 {
   width: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
   background: white;
   position: relative;
 }
@@ -444,6 +451,7 @@ select {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 20px;
+  color: black;
 }
 .blogcontent-link {
   text-decoration: none;
@@ -453,7 +461,7 @@ select {
 
 .inquiryparent {
   background: #f1f0f0;
-  height: 450px;
+  height: 80vh;
 }
 .inquiry {
   font-size: 35px;
@@ -468,7 +476,7 @@ select {
 }
 .inquiry__btn {
   width: 300px;
-  line-height: 50px;
+  line-height: 10vh;
   text-align: center;
   background-color: red;
   margin: 0 auto;
@@ -481,13 +489,12 @@ select {
   text-decoration: none;
 }
 .inquiry__footer {
-  height: 60px;
+  height: 10vh;
   background: black;
 }
 .footer__navi-list {
   display: flex;
   color: white;
-  padding-top: 20px;
   list-style-type: none;
   justify-content: center;
 }
@@ -506,4 +513,5 @@ select {
   font-size: 15px;
   margin: 0 10px;
   text-decoration: none;
+  color: #cccccc;
 }

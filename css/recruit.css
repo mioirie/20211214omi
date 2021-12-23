@@ -189,6 +189,7 @@ select {
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
+  color: black;
 }
 .header__navi {
   display: flex;
@@ -198,6 +199,7 @@ select {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  color: black;
 }
 
 .header__navi-item {
@@ -209,6 +211,7 @@ select {
 
 .header-nav-item-link {
   text-decoration: none;
+  color: black;
 }
 
 /* ここから下がTOPと異なる */
@@ -216,7 +219,7 @@ select {
 .service {
   background-image: url(../img/mv.png);
   width: 100vw;
-  height: 300px;
+  height: 80vh;
   display: block;
   background-size: cover;
   margin: 0 auto;
@@ -234,7 +237,7 @@ select {
 }
 /* 採用情報詳細 */
 .blank {
-  height: 70px;
+  height: 10vh;
 }
 .newgrad {
   width: 80%;
@@ -255,7 +258,7 @@ tr,
 td,
 th {
   width: 80%;
-  height: 50px;
+  height: 10vh;
   border: 1px black solid;
   border-collapse: collapse;
   margin: 0 auto;
@@ -291,7 +294,7 @@ tr,
 td,
 th {
   width: 80%;
-  height: 50px;
+  height: 10vh;
   border: 1px black solid;
   border-collapse: collapse;
   margin: 0 auto;
@@ -310,11 +313,11 @@ td {
 
 /* お問い合わせ */
 .blank5 {
-  height: 70px;
+  height: 10vh;
 }
 .inquiryparent {
   background: #f1f0f0;
-  height: 450px;
+  height: 60vh;
 }
 .inquiry {
   font-size: 35px;
@@ -329,7 +332,7 @@ td {
 }
 .inquiry__btn {
   width: 300px;
-  line-height: 50px;
+  line-height: 10vh;
   text-align: center;
   background-color: red;
   margin: 0 auto;
@@ -342,7 +345,7 @@ td {
   text-decoration: none;
 }
 .inquiry__footer {
-  height: 60px;
+  height: 10vh;
   background: black;
 }
 .footer__navi-list {
@@ -367,4 +370,5 @@ td {
   font-size: 15px;
   margin: 0 10px;
   text-decoration: none;
+  color: white;
 }

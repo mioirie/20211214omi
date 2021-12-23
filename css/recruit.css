@@ -176,10 +176,10 @@ select {
 /* TOP */
 
 .header {
-  width: 100%;
-  position: fixed;  
+  width: 100vw;
+  position: fixed;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: white;
@@ -215,13 +215,13 @@ select {
 
 .service {
   background-image: url(../img/mv.png);
-  width: 100%;
+  width: 100vw;
   height: 300px;
   display: block;
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  background-position:center
+  background-position: center;
 }
 .service__ttl {
   position: absolute;
@@ -237,7 +237,7 @@ select {
   height: 70px;
 }
 .newgrad {
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
 }
 .newgrad__ttl {
@@ -247,7 +247,6 @@ select {
 }
 .bar {
   border-bottom: 1px solid;
-  width: 1000px;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -255,7 +254,7 @@ select {
 tr,
 td,
 th {
-  width: 1000px;
+  width: 80%;
   height: 50px;
   border: 1px black solid;
   border-collapse: collapse;
@@ -273,7 +272,7 @@ td {
   padding-left: 15px;
 }
 .carrer {
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
 }
 .carrer__ttl {
@@ -284,7 +283,6 @@ td {
 }
 .bar {
   border-bottom: 1px solid;
-  width: 1000px;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -292,7 +290,7 @@ td {
 tr,
 td,
 th {
-  width: 1000px;
+  width: 80%;
   height: 50px;
   border: 1px black solid;
   border-collapse: collapse;

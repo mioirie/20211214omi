@@ -176,14 +176,26 @@ select {
 /* TOP */
 
 .header {
-  width: 100%;
-  position: fixed;  
+  width: 100vw;
+  position: fixed;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: white;
   z-index: 20;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 20;
+  }
 }
 .header__ttl {
   font-size: 25px;
@@ -221,7 +233,7 @@ select {
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  background-position:center
+  background-position: center;
 }
 .service__ttl {
   position: absolute;
@@ -235,50 +247,74 @@ select {
 /* お問い合わせ詳細 */
 
 .inquiryform {
-  width: 1000px;
-  margin: 0 auto;
+  width: 100vw;
+  padding: 0 auto;
 }
 
 .company1 {
+  width: 80%;
+  margin: 0 auto;
   margin-top: 40px;
 }
 .company1__ttl {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: left;
+}
+
+.company1__box {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .name1 {
-  margin-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 .name1__ttl {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: left;
+}
+.name1__box {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .address1 {
-  margin-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 .address1__ttl {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: left;
+}
+.address1__box {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .inquirytext {
   margin-top: 30px;
+  text-align: center;
 }
 .inquirytext__ttl {
+  width: 80%;
   display: block;
   font-weight: bold;
+  margin: 0 auto;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .inquirytext__box {
-  resize: none;
-  width: 836.8px;
-  height: 80px;
+  width: 80vw;
 }
 
 p {

@@ -176,14 +176,26 @@ select {
 /* TOP */
 
 .header {
-  width: 100%;
-  position: fixed;  
+  width: 100vw;
+  position: fixed;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: white;
   z-index: 20;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 20;
+  }
 }
 .header__ttl {
   font-size: 25px;
@@ -221,7 +233,7 @@ select {
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  background-position:center
+  background-position: center;
 }
 
 .service__img {
@@ -240,20 +252,34 @@ select {
 
 /* 社員ブログ詳細 */
 .blogspace {
-  width: 1000px;
-  height: 300px;
+  width: 100vw;
   margin: 0 auto;
   margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .blogspace {
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: block;
+  }
+}
+
 .blogcontent__1 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blogcontent__1 {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+  }
 }
 .blogcontent__1--img {
   position: relative;
@@ -263,19 +289,26 @@ select {
 }
 .blogcontent__1--date {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .blogcontent__1--txt {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .blogcontent__2 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blogcontent__2 {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+  }
 }
 .blogcontent__2--img {
   position: relative;
@@ -285,19 +318,26 @@ select {
 }
 .blogcontent__2--date {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .blogcontent__2--txt {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .blogcontent__3 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blogcontent__3 {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+  }
 }
 .blogcontent__3--img {
   position: relative;
@@ -307,20 +347,27 @@ select {
 }
 .blogcontent__3--date {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .blogcontent__3--txt {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .blogcontent__4 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blogcontent__4 {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+  }
 }
 .blogcontent__4--img {
   position: relative;
@@ -330,20 +377,27 @@ select {
 }
 .blogcontent__4--date {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .blogcontent__4--txt {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .blogcontent__5 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blogcontent__5 {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+  }
 }
 .blogcontent__5--img {
   position: relative;
@@ -353,20 +407,27 @@ select {
 }
 .blogcontent__5--date {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .blogcontent__5--txt {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .blogcontent__6 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .blogcontent__6 {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+  }
 }
 .blogcontent__6--img {
   position: relative;
@@ -376,21 +437,20 @@ select {
 }
 .blogcontent__6--date {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .blogcontent__6--txt {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .blogcontent-link {
   text-decoration: none;
 }
 
 /* お問い合わせ */
-.blank5 {
-  height: 300px;
-}
+
 .inquiryparent {
   background: #f1f0f0;
   height: 450px;

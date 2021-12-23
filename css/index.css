@@ -176,7 +176,7 @@ select {
 /* TOP */
 
 .header {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -187,7 +187,7 @@ select {
 }
 @media screen and (max-width: 768px) {
   .header {
-    width: auto;
+    width: 100vw;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -222,7 +222,7 @@ select {
 }
 .firstview {
   background-image: url(../img/mv.png);
-  height: 500px;
+  height: 100vh;
   width: 100%;
   display: block;
   background-size: cover;
@@ -261,7 +261,7 @@ select {
   transform: translate(-50%, -50%);
 }
 .firstmessage {
-  height: 400px;
+  height: 100vh;
   background-color: black;
 }
 .firstmessage__contents {
@@ -277,7 +277,6 @@ select {
 .firstmessage__text {
   font-size: 15px;
   font-weight: bold;
-  line-height: 23px;
   color: white;
   padding-top: 50px;
 }
@@ -511,8 +510,6 @@ select {
   height: 70px;
 }
 .news {
-  width: 100%;
-  height: 400px;
   background-color: black;
   padding: 50px;
 }
@@ -526,7 +523,7 @@ select {
   text-align: center;
 }
 .news__contents-ttl {
-  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -536,17 +533,15 @@ select {
   color: white;
 }
 .news__contents-ttl--2 {
-  line-height: 50px;
+  line-height: 8vh;
   background-color: red;
   text-align: center;
   font-size: 15px;
   font-weight: bold;
   color: white;
-  padding: 0 10px;
 }
 .news__contents-element--1 {
-  width: 100%;
-  line-height: 80px;
+  line-height: 12vh;
   background-color: white;
   margin: 20px auto;
   padding-left: 20px;
@@ -557,8 +552,7 @@ select {
   text-decoration: none;
 }
 .news__contents-element--2 {
-  width: 100%;
-  line-height: 80px;
+  line-height: 12vh;
   background-color: white;
   padding-left: 20px;
   margin: 0 auto;
@@ -567,8 +561,7 @@ select {
   color: black;
 }
 .news__contents-element--3 {
-  width: 100%;
-  line-height: 80px;
+  line-height: 12vh;
   background-color: white;
   padding-left: 20px;
   margin: 0 auto;
@@ -586,32 +579,30 @@ select {
 }
 .blogspace {
   width: 100%;
-  height: 350px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 @media screen and (max-width: 768px) {
   .blogspace {
-  width: auto;
-  margin: 0 auto;
-  display: block;
-}
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .blogcontent__1 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .blogcontent__1 {
-  width: 90vw;
-  height: auto;
-  margin: 0 auto;
-}
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 .blogcontent__1--img {
   position: relative;
@@ -620,7 +611,7 @@ select {
   .blogcontent__1--img {
     width: auto;
     height: auto;
-}
+  }
 }
 
 .blogcontent__1--img img {
@@ -637,19 +628,18 @@ select {
 }
 .blogcontent__2 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .blogcontent__2 {
-  width: 90vw;
-  height: auto;
-  margin: 0 auto;
-  background: white;
-  position: relative;
-}
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+  }
 }
 .blogcontent__2--img {
   position: relative;
@@ -668,19 +658,18 @@ select {
 }
 .blogcontent__3 {
   width: 30%;
-  height: 300px;
   margin-left: 0px;
   background: white;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .blogcontent__3 {
-  width: 90vw;
-  height: auto;
-  margin: 0 auto;
-  background: white;
-  position: relative;
-}
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+  }
 }
 .blogcontent__3--img {
   position: relative;
@@ -701,14 +690,15 @@ select {
   text-decoration: none;
 }
 .blog2 {
-  width: 100%;
-  line-height: 50px;
+  width: 300px;
+  line-height: 10vh;
   text-align: center;
   background-color: red;
   margin: 0 auto;
   font-size: 15px;
   font-weight: bold;
   color: white;
+  margin-top: 85px;
 }
 .blog2__link {
   text-decoration: none;
@@ -718,14 +708,13 @@ select {
   height: 70px;
 }
 .aboutcompany {
-  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .aboutcompany__info {
-  line-height: 300px;
+  line-height: 50vh;
   width: 50%;
   font-size: 35px;
   color: white;
@@ -736,7 +725,7 @@ select {
 }
 
 .aboutcompany__recruit {
-  line-height: 300px;
+  line-height: 50vh;
   width: 50%;
   font-size: 35px;
   color: white;
@@ -751,7 +740,6 @@ select {
 }
 .inquiryparent {
   background: #f1f0f0;
-  height: 450px;
 }
 .inquiry {
   font-size: 35px;
@@ -766,14 +754,13 @@ select {
 }
 .inquiry__btn {
   width: 300px;
-  line-height: 50px;
+  line-height: 10vh;
   text-align: center;
   background-color: red;
-  margin: 0 auto;
+  margin: 10vh auto;
   font-size: 15px;
   font-weight: bold;
   color: white;
-  margin-top: 50px;
 }
 .inquiry__btn-link {
   text-decoration: none;

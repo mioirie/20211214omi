@@ -176,7 +176,7 @@ select {
 /* TOP */
 
 .header {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -184,6 +184,18 @@ select {
   padding-bottom: 20px;
   background-color: white;
   z-index: 20;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 20;
+  }
 }
 .header__ttl {
   font-size: 25px;
@@ -239,18 +251,17 @@ select {
 }
 .bar {
   border-bottom: 1px solid;
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 15px;
 }
 
 .company {
-  height: 400px;
   font-size: 20px;
   margin: 20px auto;
 }
 .companytable__1 {
-  width: 800px;
+  width: 80vw;
   margin: 30px auto;
   display: flex;
 }
@@ -263,7 +274,7 @@ select {
   margin-left: 120px;
 }
 .companytable__2 {
-  width: 800px;
+  width: 80vw;
   margin: 30px auto;
   display: flex;
 }
@@ -276,7 +287,7 @@ select {
   margin-left: 120px;
 }
 .companytable__3 {
-  width: 800px;
+  width: 80vw;
   margin: 30px auto;
   display: flex;
 }
@@ -289,7 +300,7 @@ select {
   margin-left: 120px;
 }
 .companytable__4 {
-  width: 800px;
+  width: 80vw;
   margin: 30px auto;
   display: flex;
 }
@@ -302,7 +313,7 @@ select {
   margin-left: 120px;
 }
 .companytable__5 {
-  width: 800px;
+  width: 80vw;
   margin: 30px auto;
   display: flex;
 }
@@ -315,7 +326,7 @@ select {
   margin-left: 120px;
 }
 .companytable__6 {
-  width: 800px;
+  width: 80vw;
   margin: 30px auto;
   display: flex;
 }

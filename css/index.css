@@ -224,8 +224,7 @@ select {
 }
 /* ハンバーガーメニューを設置＆ヘッダ項目を削除↓ */
 @media screen and (max-width: 768px) {
-  /* ↓　ちなみにheader__navi,header__navi-list,header__nabi-itemもおいてみましたがだめでした */
-  　.header__navi-item-link {
+  .header__navi {
     display: none;
   }
 
@@ -235,8 +234,7 @@ select {
     height: 32px;
     cursor: pointer;
     position: relative;
-    left: 20px;
-    top: 20px;
+    margin-right: 3vw;
   }
   .menu__line--top,
   .menu__line--middle,

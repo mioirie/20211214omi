@@ -347,6 +347,18 @@ td {
 .inquiry__footer {
   height: 10vh;
   background: black;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .inquiry__footer {
+    height: 45vh;
+  }
+}
+
+.inquiry__footer--copyright {
+  color: white;
+  margin: auto 1vw;
 }
 .footer__navi-list {
   display: flex;
@@ -355,20 +367,32 @@ td {
   list-style-type: none;
   justify-content: center;
 }
-.inquiry__footer--copyright {
-  color: white;
-  margin-right: 200px;
+
+@media screen and (max-width: 768px) {
+  .footer__navi-list {
+    display: block;
+  }
 }
-.inquiry__footer--navi {
-  display: flex;
-  color: white;
-}
+
 .footer__navi-item {
   color: white;
 }
+@media screen and (max-width: 768px) {
+  .footer__navi-item {
+    color: white;
+    margin-bottom: 3vh;
+  }
+}
+
 .footer-nav-item-link {
+  color: white;
   font-size: 15px;
   margin: 0 10px;
   text-decoration: none;
-  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-nav-item-bar {
+    display: none;
+  }
 }

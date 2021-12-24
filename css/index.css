@@ -222,6 +222,54 @@ select {
   text-decoration: none;
   color: #000;
 }
+/* ハンバーガーメニューを設置＆ヘッダ項目を削除↓ */
+@media screen and (max-width: 768px) {
+  /* ↓　ちなみにheader__navi,header__navi-list,header__nabi-itemもおいてみましたがだめでした */
+  　.header__navi-item-link {
+    display: none;
+  }
+
+  .humburgermenu {
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  .menu__line--top,
+  .menu__line--middle,
+  .menu__line--bottom {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: 0.5s;
+  }
+  .menu__line--top {
+    top: 0;
+  }
+  .menu__line--middle {
+    top: 14px;
+  }
+  .menu__line--bottom {
+    bottom: 0;
+  }
+  .menu.open span:nth-of-type(1) {
+    top: 14px;
+    transform: rotate(45deg);
+  }
+  .menu.open span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .menu.open span:nth-of-type(3) {
+    top: 14px;
+    transform: rotate(-45deg);
+  }
+}
+
 .firstview {
   background-image: url(../img/mv.png);
   height: 100vh;
@@ -263,7 +311,7 @@ select {
   transform: translate(-50%, -50%);
 }
 .firstmessage {
-  height: 100vh;
+  height: 70vh;
   background-color: black;
 }
 .firstmessage__contents {
@@ -768,7 +816,7 @@ select {
 
 /* お問い合わせ */
 .blank5 {
-  height: 70px;
+  height: 15vh;
 }
 .inquiryparent {
   background: #f1f0f0;

@@ -1,4 +1,4 @@
-const target = document.getElementById("humbergermenu");
+document.getElementById('menu');
 target.addEventListener('click', () => {
-  target.classList.toggle('open');
+target.classList.toggle('open');
 });

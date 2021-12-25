@@ -223,54 +223,83 @@ select {
   color: #000;
 }
 
-/* ハンバーガーメニューを設置＆ヘッダ項目を削除↓ */
+/* ドロワーメニュー */
+/* デスクトップ画面でドロワーメニューのリストを表示させない */
+@media screen and (min-width: 769px) {
+  .navdrawer {
+    display: none;
+  }
+}
 
+/* モバイル画面でハンバーガーメニュー表示＋リストを削除 */
 @media screen and (max-width: 768px) {
   .header__navi {
     display: none;
   }
 
-.menu {
-  display: inline-block;
-  width: 36px;
-  height: 32px;
-  cursor: pointer;
-  position: relative;
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  .navdrawer {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    background: white;
+    transition: 0.7s;
+    text-align: center;
+  }
+  .nav ul {
+    padding-top: 80px;
+  }
+  .nav ul li {
+    list-style-type: none;
+    margin-top: 50px;
+  }
+  .drawermenu {
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+  }
+  .drawermenu__line--top,
+  .drawermenu__line--middle,
+  .drawermenu__line--bottom {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: 0.5s;
+  }
+  .drawermenu__line--top {
+    top: 0;
+  }
+  .drawermenu__line--middle {
+    top: 14px;
+  }
+  .drawermenu__line--bottom {
+    bottom: 0;
+  }
+  .drawermenu.open span:nth-of-type(1) {
+    top: 14px;
+    transform: rotate(45deg);
+  }
+  .drawermenu.open span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .drawermenu.open span:nth-of-type(3) {
+    top: 14px;
+    transform: rotate(-45deg);
+  }
+  .in {
+    transform: translateX(100%);
+  }
+}
 
-  top: 20px;
-}
-.menu__line--top,
-.menu__line--middle,
-.menu__line--bottom {
-  display: inline-block;
-  width: 100%;
-  height: 4px;
-  background-color: #000;
-  position: absolute;
-  transition: 0.5s;
-}
-.menu__line--top {
-  top: 0;
-}
-.menu__line--middle {
-  top: 14px;
-}
-.menu__line--bottom {
-  bottom: 0;
-}
-.menu.open span:nth-of-type(1) {
-  top: 14px;
-  transform: rotate(45deg);
-}
-.menu.open span:nth-of-type(2) {
-  opacity: 0;
-}
-.menu.open span:nth-of-type(3) {
-  top: 14px;
-  transform: rotate(-45deg);
-}
-}
-
+/* ドロワーメニューここまで */
 .firstview {
   background-image: url(../img/mv.png);
   height: 100vh;

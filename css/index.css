@@ -230,16 +230,17 @@ select {
     display: none;
   }
 }
-
 /* モバイル画面でハンバーガーメニュー表示＋リストを削除 */
 @media screen and (max-width: 768px) {
   .header__navi {
     display: none;
+    margin-top: 5vh;
   }
-
   a {
     text-decoration: none;
     color: blue;
+    display: block;
+    margin-top: 5vh;
   }
   .navdrawer {
     position: absolute;
@@ -298,7 +299,6 @@ select {
     transform: translateX(100%);
   }
 }
-
 /* ドロワーメニューここまで */
 .firstview {
   background-image: url(../img/mv.png);

@@ -190,6 +190,7 @@ select {
   font-weight: bold;
   text-decoration: none;
   color: black;
+  margin-left: 15px;
 }
 .header__navi {
   display: flex;
@@ -367,7 +368,7 @@ select {
 /* お問い合わせ */
 .inquiryparent {
   background: #f1f0f0;
-  height: 80vh;
+  height: 55vh;
 }
 .inquiry {
   font-size: 35px;
@@ -408,7 +409,7 @@ select {
 
 .inquiry__footer--copyright {
   color: white;
-  margin: auto 1vw;
+  margin: auto 8vw;
 }
 .footer__navi-list {
   display: flex;

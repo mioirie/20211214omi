@@ -202,6 +202,7 @@ select {
   font-weight: bold;
   text-decoration: none;
   color: black;
+  margin-left: 15px;
 }
 .header__navi {
   display: flex;
@@ -216,7 +217,7 @@ select {
   list-style: none;
   font-size: 17px;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 35px;
 }
 .header-nav-item-link {
   text-decoration: none;
@@ -234,13 +235,14 @@ select {
 @media screen and (max-width: 768px) {
   .header__navi {
     display: none;
-    margin-top: 5vh;
+  }
+  li {
+    margin: 5vh;
   }
   a {
     text-decoration: none;
     color: blue;
     display: block;
-    margin-top: 5vh;
   }
   .navdrawer {
     position: absolute;
@@ -258,12 +260,14 @@ select {
     list-style-type: none;
     margin-top: 50px;
   }
+
   .drawermenu {
     display: inline-block;
     width: 36px;
     height: 32px;
     cursor: pointer;
     position: relative;
+    margin-right: 20px;
   }
   .drawermenu__line--top,
   .drawermenu__line--middle,
@@ -299,6 +303,7 @@ select {
     transform: translateX(100%);
   }
 }
+
 /* ドロワーメニューここまで */
 .firstview {
   background-image: url(../img/mv.png);
@@ -335,19 +340,19 @@ select {
   font-size: 20px;
   font-weight: bold;
   color: white;
-  top: 60%;
+  top: 65%;
   left: 50%;
   padding-top: 30px;
   transform: translate(-50%, -50%);
 }
 .firstmessage {
-  height: 70vh;
+  height: 60vh;
   background-color: black;
 }
 .firstmessage__contents {
-  width: 1000px;
+  width: 80vw;
   margin: auto;
-  padding-top: 150px;
+  padding-top: 15vh;
 }
 .firstmessage__ttl {
   font-size: 35px;
@@ -356,9 +361,9 @@ select {
 }
 .firstmessage__text {
   font-size: 15px;
-  font-weight: bold;
   color: white;
-  padding-top: 50px;
+  padding-top: 5vh;
+  line-height: 4vh;
 }
 /* ！！！サービス！！！ */
 .blank1 {
@@ -635,6 +640,7 @@ select {
   font-size: 15px;
   font-weight: bold;
   color: white;
+  width: 20vw;
 }
 .news__contents-element--1 {
   line-height: 12vh;
@@ -644,6 +650,10 @@ select {
   font-size: 20px;
   color: black;
 }
+.news__contents-element--1:hover {
+  background: lightgray;
+}
+
 .news__contents-link {
   text-decoration: none;
   color: white;
@@ -657,6 +667,10 @@ select {
   font-size: 20px;
   color: black;
 }
+.news__contents-element--2:hover {
+  background: lightgray;
+}
+
 .news__contents-element--3 {
   line-height: 12vh;
   background-color: white;
@@ -665,6 +679,10 @@ select {
   font-size: 20px;
   color: black;
 }
+.news__contents-element--3:hover {
+  background: lightgray;
+}
+
 /* 社員ブログ */
 .blank3 {
   height: 70px;
@@ -809,6 +827,7 @@ select {
 }
 .aboutcompany {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
 }
@@ -850,6 +869,7 @@ select {
 }
 .inquiryparent {
   background: #f1f0f0;
+  height: 55vh;
 }
 .inquiry {
   font-size: 35px;
@@ -889,7 +909,7 @@ select {
 
 .inquiry__footer--copyright {
   color: white;
-  margin: auto 1vw;
+  margin: auto 8vw;
 }
 .footer__navi-list {
   display: flex;

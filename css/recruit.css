@@ -190,6 +190,7 @@ select {
   font-weight: bold;
   text-decoration: none;
   color: black;
+  margin-left: 15px;
 }
 .header__navi {
   display: flex;
@@ -396,7 +397,7 @@ td {
 }
 .inquiryparent {
   background: #f1f0f0;
-  height: 60vh;
+  height: 55vh;
 }
 .inquiry {
   font-size: 35px;
@@ -437,7 +438,7 @@ td {
 
 .inquiry__footer--copyright {
   color: white;
-  margin: auto 1vw;
+  margin: auto 8vw;
 }
 .footer__navi-list {
   display: flex;

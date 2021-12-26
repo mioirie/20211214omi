@@ -215,7 +215,7 @@ select {
   list-style: none;
   font-size: 17px;
   font-weight: bold;
-  margin-left: 35px;
+  margin-left: 1vw;
 }
 .header-nav-item-link {
   text-decoration: none;
@@ -265,7 +265,7 @@ select {
     height: 32px;
     cursor: pointer;
     position: relative;
-    margin-right: 20px;
+    margin-right: 10vw;
   }
   .drawermenu__line--top,
   .drawermenu__line--middle,

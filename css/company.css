@@ -237,12 +237,13 @@ select {
     display: none;
     margin-top: 5vh;
   }
-
+  li {
+    margin: 5vh;
+  }
   a {
     text-decoration: none;
     color: blue;
     display: block;
-    margin-top: 5vh;
   }
   .navdrawer {
     position: absolute;
@@ -266,6 +267,7 @@ select {
     height: 32px;
     cursor: pointer;
     position: relative;
+    margin-right: 10vw;
   }
   .drawermenu__line--top,
   .drawermenu__line--middle,
@@ -354,7 +356,7 @@ td {
 
 /* お問い合わせ */
 .blank5 {
-  height: 10vhx;
+  height: 10vh;
 }
 .inquiryparent {
   background: #f1f0f0;

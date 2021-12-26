@@ -206,7 +206,7 @@ select {
 }
 .header__navi {
   display: flex;
-  justify-content: flex-end;
+  margin-left: 8vw;
 }
 .header__navi-list {
   display: flex;
@@ -696,7 +696,7 @@ select {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 @media screen and (max-width: 768px) {
   .blogspace {
@@ -903,10 +903,9 @@ select {
 }
 @media screen and (max-width: 768px) {
   .inquiry__footer {
-    height: 45vh;
+    height: 60vh;
   }
 }
-
 .inquiry__footer--copyright {
   color: white;
   margin: auto 8vw;
@@ -914,7 +913,7 @@ select {
 .footer__navi-list {
   display: flex;
   color: white;
-  padding-top: 20px;
+  padding-top: 4vh;
   list-style-type: none;
   justify-content: center;
 }

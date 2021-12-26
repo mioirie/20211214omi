@@ -180,8 +180,7 @@ select {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding: 25px;
   background-color: white;
   z-index: 20;
 }
@@ -190,7 +189,6 @@ select {
   font-weight: bold;
   text-decoration: none;
   color: black;
-  margin-left: 15px;
 }
 .header__navi {
   display: flex;
@@ -435,7 +433,6 @@ td {
     height: 45vh;
   }
 }
-
 .inquiry__footer--copyright {
   color: white;
   margin: auto 8vw;
@@ -443,17 +440,15 @@ td {
 .footer__navi-list {
   display: flex;
   color: white;
-  padding-top: 20px;
   list-style-type: none;
   justify-content: center;
+  margin: auto;
 }
-
 @media screen and (max-width: 768px) {
   .footer__navi-list {
     display: block;
   }
 }
-
 .footer__navi-item {
   color: white;
 }
@@ -463,14 +458,12 @@ td {
     margin-bottom: 3vh;
   }
 }
-
 .footer-nav-item-link {
   color: white;
   font-size: 15px;
   margin: 0 10px;
   text-decoration: none;
 }
-
 @media screen and (max-width: 768px) {
   .footer-nav-item-bar {
     display: none;

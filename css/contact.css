@@ -180,8 +180,7 @@ select {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding: 25px;
   background-color: white;
   z-index: 20;
 }
@@ -202,7 +201,6 @@ select {
   font-weight: bold;
   text-decoration: none;
   color: black;
-  margin-left: 15px;
 }
 .header__navi {
   display: flex;
@@ -438,9 +436,9 @@ p {
 .footer__navi-list {
   display: flex;
   color: white;
-  padding-top: 20px;
   list-style-type: none;
   justify-content: center;
+  margin: auto;
 }
 
 @media screen and (max-width: 768px) {

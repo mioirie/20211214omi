@@ -206,25 +206,24 @@ select {
 }
 .header__navi {
   display: flex;
-  justify-content: flex-end;
+  margin-left: 8vw;
 }
 .header__navi-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 .header__navi-item {
   list-style: none;
   font-size: 17px;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 1vw;
 }
-
 .header-nav-item-link {
   text-decoration: none;
   color: #000;
 }
+
 /* ドロワーメニュー */
 /* デスクトップ画面でドロワーメニューのリストを表示させない */
 @media screen and (min-width: 769px) {
@@ -235,12 +234,10 @@ select {
     display: none;
   }
 }
-
 /* モバイル画面でハンバーガーメニュー表示＋リストを削除 */
 @media screen and (max-width: 768px) {
   .header__navi {
     display: none;
-    margin-top: 5vh;
   }
   li {
     margin: 5vh;
@@ -266,6 +263,7 @@ select {
     list-style-type: none;
     margin-top: 50px;
   }
+
   .drawermenu {
     display: inline-block;
     width: 36px;
@@ -539,10 +537,9 @@ select {
 }
 @media screen and (max-width: 768px) {
   .inquiry__footer {
-    height: 45vh;
+    height: 60vh;
   }
 }
-
 .inquiry__footer--copyright {
   color: white;
   margin: auto 8vw;

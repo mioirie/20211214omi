@@ -183,6 +183,7 @@ select {
   padding: 25px;
   background-color: white;
   z-index: 20;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
   .header {
@@ -194,6 +195,7 @@ select {
     padding-bottom: 20px;
     background-color: white;
     z-index: 20;
+    box-sizing: border-box;
   }
 }
 .header__ttl {
@@ -226,6 +228,9 @@ select {
 /* デスクトップ画面でドロワーメニューのリストを表示させない */
 @media screen and (min-width: 769px) {
   .navdrawer {
+    display: none;
+  }
+  .drawermenu {
     display: none;
   }
 }
@@ -265,7 +270,7 @@ select {
     height: 32px;
     cursor: pointer;
     position: relative;
-    margin-right: 10vw;
+    margin-right: 5vw;
   }
   .drawermenu__line--top,
   .drawermenu__line--middle,
